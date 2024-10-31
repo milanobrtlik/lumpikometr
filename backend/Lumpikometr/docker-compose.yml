@@ -1,0 +1,6 @@
+﻿services:
+  lumpikometr.domain:
+    image: lumpikometr.domain
+    build:
+      context: .
+      dockerfile: Lumpikometr.Domain/Dockerfile
